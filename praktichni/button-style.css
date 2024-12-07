@@ -1,0 +1,40 @@
+.custom-button {
+    background: linear-gradient(45deg, #4a90e2, #005b99);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid #005b99;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    background: linear-gradient(45deg, #005b99, #4a90e2);
+    color: #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.return-button {
+    display: inline-block;
+    background-color: #3e3e3e;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+.return-button:hover {
+    background-color: #555555;
+    color: #eaeaea;
+}

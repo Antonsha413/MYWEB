@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Форма реєстрації</h1>
+    </header>
+
+    <main>
+        <p>Будь ласка, заповніть форму нижче, щоб зареєструватися.</p>
+
+        <form action="https://webhook.site/de774229-e683-49c2-a095-5159c6626126" method="POST">
+            <label for="firstName">Ім'я:</label><br>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+
+            <label for="lastName">Прізвище:</label><br>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+
+            <label for="email">Електронна пошта:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Пароль:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="confirmPassword">Підтвердіть пароль:</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+            <label for="dob">Дата народження:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="gender">Стать:</label><br>
+            <select id="gender" name="gender">
+                <option value="">Оберіть стать</option>
+                <option value="male">Чоловіча</option>
+                <option value="female">Жіноча</option>
+            </select><br><br>
+
+            <input type="submit" value="Зареєструватися">
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 Шутов Антон</p>
+        <a href="../praktichni.html">Повернутися на сторінку практичних робіт</a>
+    </footer>
+</body>
+</html>
